@@ -7,6 +7,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'My Docs',
+			locales: {
+				root: {
+					label: 'Français',
+					lang: 'fr',
+				},
+			},
 			social: {
 				github: 'https://github.com/Daweyy/docs.dofusretro.fr',
 			},
