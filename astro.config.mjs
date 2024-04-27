@@ -6,7 +6,7 @@ export default defineConfig({
 	site: 'https://docs.dofusretro.fr',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'DofDocs',
 			locales: {
 				root: {
 					label: 'Français',
