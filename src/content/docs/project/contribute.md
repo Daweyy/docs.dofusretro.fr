@@ -1,0 +1,63 @@
+---
+title: Contribuer
+description: Guide destiné aux contributeurs.
+sidebar:
+  order: 2
+---
+
+Toute aide est la bienvenue, qu'il s'agisse de remontées, d'ajout de connaissances, corrections ou traductions.
+
+## Participer
+
+En cas de problème, [chercher si une issue existe déjà](https://docs.github.com/fr/search-github/searching-on-github/searching-issues-and-pull-requests). Dans le cas contraire, n'hésitez pas à en ouvrir une nouvelle en utilisant le [formulaire dédié](https://github.com/Daweyy/docs.dofusretro.fr/issues/new/choose).
+
+Pour toute contribution, [ce guide](https://git-scm.com/book/fr/v2/GitHub-Contribution-à-un-projet) détaille la marche à suivre générale pour GitHub.
+
+## Les outils
+
+Ce site statique est généré à l'aide de [Starlight](https://starlight.astro.build), un thème construit autour du framework [Astro](https://astro.build).
+
+N'hésitez pas à vous appuyer sur leurs documentations respectives.
+
+## Structure du projet
+
+L'arborescence type d'un projet Astro + Starlight, vous y trouverez les dossiers et fichiers suivants :
+
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   ├── docs/
+│   │   └── config.ts
+│   └── env.d.ts
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
+```
+
+Starlight utilise les fichiers `.md` ou `.mdx` dans le dossier `src/content/docs`. Les noms de ces derniers sont utilisés pour le routage.
+
+Les images se trouvent dans `src/assets/` afin d'être utilisées dans le Markdown via des liens relatifs.
+
+Les ressources statiques, comme les favicons, sont placées dans le dossier `public/`.
+
+## Commandes
+
+A utiliser à la racine du projet, depuis votre terminal :
+
+| Commande                  | Action                                                    |
+| :------------------------ | :-------------------------------------------------------- |
+| `npm install`             | Installation des dépendances                              |
+| `npm run dev`             | Le serveur de développement local à `localhost:4321`      |
+| `npm run build`           | Génére la version de production dans `./dist/`            |
+| `npm run preview`         | Prévisulisation locale, avant déploiement                 |
+| `npm run astro ...`       | Accès aux commandes telles que `astro add`, `astro check` |
+| `npm run astro -- --help` | L'aide d'Astro                                            |
+
+## Nos contributeurs
+
+<a href="https://github.com/daweyy/docs.dofusretro.fr/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=daweyy/docs.dofusretro.fr" />
+</a>
