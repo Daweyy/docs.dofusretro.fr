@@ -1,0 +1,12 @@
+---
+title: A propos
+description: Informations sur le projet.
+sidebar:
+  order: 1
+---
+
+Cette documentation communautaire à pour objectif de couvrir l'aspect technique du jeu [Dofus Retro](https://www.dofus.com/fr/dofus-retro), et peut tout à fait s'étendre à l'ensemble des jeux ou outils [Ankama Games](https://www.ankama.com), que vous souhaitez aborder.
+
+Par ce biais nous espérons encourager et être une source de connaissance pour les projets communautaires.
+
+Nous ne sommes en aucun cas affiliés ou validés par Ankama, cependant nous n'encourageons ni ne tolérons les comportements qui ne respecteraient pas leurs [CGU](https://account.ankama.com/fr/cgu).
