@@ -21,6 +21,16 @@ export default defineConfig({
 					label: 'Le projet',
 					autogenerate: { directory: 'project' },
 				},
+				{
+					label: 'Cytrus',
+					badge: 'WIP',
+					autogenerate: { directory: 'cytrus' },
+				},
+				{
+					label: 'Dofus Retro',
+					badge: 'WIP',
+					autogenerate: { directory: 'retro' },
+				}
 			],
 		}),
 	],
