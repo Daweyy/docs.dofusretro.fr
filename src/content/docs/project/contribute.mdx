@@ -5,6 +5,8 @@ sidebar:
   order: 2
 ---
 
+import { FileTree } from '@astrojs/starlight/components';
+
 Toute aide est la bienvenue, qu'il s'agisse de remontées, d'ajout de connaissances, corrections ou traductions.
 
 ## Participer
@@ -23,19 +25,18 @@ N'hésitez pas à vous appuyer sur leurs documentations respectives.
 
 L'arborescence type d'un projet Astro + Starlight, vous y trouverez les dossiers et fichiers suivants :
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+<FileTree>
+- public/
+- src/
+	- assets/
+	- content/
+		- docs/
+		- config.ts
+	- env.d.ts
+- astro.config.mjs
+- package.json
+- tsconfig.json
+</FileTree>
 
 Starlight utilise les fichiers `.md` ou `.mdx` dans le dossier `src/content/docs`. Les noms de ces derniers sont utilisés pour le routage.
 
