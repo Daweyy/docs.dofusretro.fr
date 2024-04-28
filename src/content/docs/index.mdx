@@ -1,36 +1,39 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Bienvenue sur docs.dofusretro.fr
+description: Documentation technique communautaire autour des projets Ankama
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Documentation technique communautaire autour des projets Ankama
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Le projet
+      link: /project/about
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Nous sommes open-source
+      link: https://github.com/Daweyy/docs.dofusretro.fr
       icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-## Next steps
+## Bien débuter
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+<CardGrid>
+	<LinkCard
+		title="Cytrus"
+		description="Le moteur de mises à jour de l'Ankama Launcher."
+		href="/cytrus"
+	/>
+	<LinkCard
+		title="Retro"
+		description="La première version de Dofus."
+		href="/retro"
+	/>
 </CardGrid>
+<LinkCard 
+	title="Contribuer"
+	description="Envie d'apporter ta pierre à l'édifice ? Consulte notre guide de contribution."
+	href="/project/contribute"
+/>
