@@ -3,11 +3,11 @@
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 ![Workflow](https://github.com/Daweyy/docs.dofusretro.fr/actions/workflows/deploy.yml/badge.svg)
 
-This is a community-driven documentation about [Dofus Retro](https://www.dofus.com/fr/dofus-retro) or any [Ankama Games](https://www.ankama.com) project, that you wanna help to cover.
+This is a community-driven documentation about [Dofus Retro](https://www.dofus.com/en/dofus-retro) or any [Ankama Games](https://www.ankama.com) project, that you wanna help to cover.
 
 In this way we want to encourage and share knowledge for fan projects.
 
-> We are in no way affiliated with or supported by Ankama, however we do not encourage or condone any behavior that violates their ToS.
+> We are in no way affiliated with or supported by Ankama, however we do not encourage or condone any behavior that violates [their ToU](https://account.ankama.com/en/tou).
 
 ## 🚀 Project Structure
 
@@ -54,4 +54,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to help ?
 
-Check out [the contributor guide](https://docs.dofusretro.fr/contribute).
+Check out [the contributor guide](https://docs.dofusretro.fr/project/contribute).
