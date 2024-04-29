@@ -22,9 +22,9 @@ export default defineConfig({
 					autogenerate: { directory: 'project' },
 				},
 				{
-					label: 'Cytrus',
+					label: 'Ankama Launcher',
 					badge: 'WIP',
-					autogenerate: { directory: 'cytrus' },
+					autogenerate: { directory: 'launcher' },
 				},
 				{
 					label: 'Dofus Retro',
