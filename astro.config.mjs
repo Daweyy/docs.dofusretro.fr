@@ -34,6 +34,7 @@ export default defineConfig({
 			editLink: {
 				baseUrl: 'https://github.com/Daweyy/docs.dofusretro.fr/blob/main/',
 			},
+			lastUpdated: true,
 		}),
 	],
 });
