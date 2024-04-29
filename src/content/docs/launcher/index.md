@@ -2,6 +2,7 @@
 title: Introduction
 sidebar:
   order: 1
+tableOfContents: false
 ---
 
 Point d'entrée des univers Ankama, sa fonction principale est de permettre le téléchargement et mises à jour des différents jeux.

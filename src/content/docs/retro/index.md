@@ -2,6 +2,7 @@
 title: Introduction
 sidebar:
   order: 1
+tableOfContents: false
 ---
 
 La version originale de Dofus, développée avec Adobe Flash, en Actionscript 2. 
