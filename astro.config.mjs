@@ -23,7 +23,6 @@ export default defineConfig({
 				},
 				{
 					label: 'Ankama Launcher',
-					badge: 'WIP',
 					autogenerate: { directory: 'launcher' },
 				},
 				{
@@ -32,6 +31,9 @@ export default defineConfig({
 					autogenerate: { directory: 'retro' },
 				}
 			],
+			editLink: {
+				baseUrl: 'https://github.com/Daweyy/docs.dofusretro.fr/blob/main/',
+			},
 		}),
 	],
 });
