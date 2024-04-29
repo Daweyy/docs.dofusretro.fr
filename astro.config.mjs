@@ -27,7 +27,6 @@ export default defineConfig({
 				},
 				{
 					label: 'Dofus Retro',
-					badge: 'WIP',
 					autogenerate: { directory: 'retro' },
 				}
 			],
