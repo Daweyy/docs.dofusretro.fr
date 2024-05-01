@@ -46,16 +46,18 @@ Les ressources statiques, comme les favicons, sont placées dans le dossier `pub
 
 ## Commandes
 
+[Bun](https://bun.sh) est recommandé et utilisé pour le déploiement, vous pouvez utiliser votre runtime JS préféré mais seul le lockfile de Bun doit être présent dans le projet.
+
 A utiliser à la racine du projet, depuis votre terminal :
 
 | Commande                  | Action                                                    |
 | :------------------------ | :-------------------------------------------------------- |
-| `npm install`             | Installation des dépendances                              |
-| `npm run dev`             | Le serveur de développement local à `localhost:4321`      |
-| `npm run build`           | Génére la version de production dans `./dist/`            |
-| `npm run preview`         | Prévisulisation locale, avant déploiement                 |
-| `npm run astro ...`       | Accès aux commandes telles que `astro add`, `astro check` |
-| `npm run astro -- --help` | L'aide d'Astro                                            |
+| `bun install`             | Installation des dépendances                              |
+| `bun run dev`             | Le serveur de développement local à `localhost:4321`      |
+| `bun run build`           | Génére la version de production dans `./dist/`            |
+| `bun run preview`         | Prévisulisation locale, avant déploiement                 |
+| `bun run astro ...`       | Accès aux commandes telles que `astro add`, `astro check` |
+| `bun run astro -- --help` | L'aide d'Astro                                            |
 
 ## Nos contributeurs
 
